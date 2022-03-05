@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: _title,
       theme: ThemeData(scaffoldBackgroundColor: const Color.fromARGB(43, 236, 196, 83)),
       home: Scaffold(
         appBar: AppBar(
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
                 const SizedBox(width: 50),
                 Image.asset("mig.jpg",height: 150,width: 150),
                 const SizedBox(width: 20),
-                const Text("Charu, Lucknow \n Every nook and corner of Chowk offers a variety of concotion of dishes like kebabs, paratha-chai or Fried Burgers", style: TextStyle(color: Colors.purple, fontSize: 20)),
+                const Text("Try Hastapadasana, Setu bandhasana, Shishuasana\n Include leafy veggies, tuna, avacado, omega-3.", style: TextStyle(color: Colors.purple, fontSize: 13)),
             ],
           ),
           Row(
@@ -48,7 +49,7 @@ class MyApp extends StatelessWidget {
                 const SizedBox(width: 50),
                 Image.asset("kidney.jpg",height: 150,width: 150),
                 const SizedBox(width: 20),
-                const Text("Charu, Lucknow \n Every nook and corner of Chowk offers a variety of concotion of dishes like kebabs, paratha-chai or Fried Burgers", style: TextStyle(color: Colors.purple, fontSize: 20)),
+                const Text("Try Mandukasana, Vakrasana, Ardha matyasana \n Include cauliflower, sea bass, egg whites, garlic in your diet.", style: TextStyle(color: Colors.purple, fontSize: 20)),
             ],
           ),
           Row(
@@ -58,7 +59,7 @@ class MyApp extends StatelessWidget {
                 const SizedBox(width: 50),
                 Image.asset("heart.jpg",height: 150,width: 150),
                 const SizedBox(width: 20),
-                const Text("Charu, Lucknow \n Every nook and corner of Chowk offers a variety of concotion of dishes like kebabs, paratha-chai or Fried Burgers", style: TextStyle(color: Colors.purple, fontSize: 20)),
+                const Text("Try Utthita Trikonasana, Paschimottanasana, Ardha matsyendrasana \n Include whole grain, nuts, seeds, fruits, veggies, fish in your diet.", style: TextStyle(color: Colors.purple, fontSize: 12)),
 
               ],
           ),
@@ -69,7 +70,7 @@ class MyApp extends StatelessWidget {
                 const SizedBox(width: 50),
                 Image.asset("bp.jpg",height: 150,width: 150),
                 const SizedBox(width: 20),
-                const Text("Charu, Lucknow \n Every nook and corner of Chowk offers a variety of concotion of dishes like kebabs, paratha-chai or Fried Burgers", style: TextStyle(color: Colors.purple, fontSize: 20)),
+                const Text("Try Balasana, Sukhasana, Shavasana \n Include beans, fish, citrus food, carrots in your diet.", style: TextStyle(color: Colors.purple, fontSize: 20)),
             ],
           ),   
           Row(
@@ -79,9 +80,9 @@ class MyApp extends StatelessWidget {
                 const SizedBox(width: 50),
                 Image.asset("diabetes.jpg",height: 150,width: 150),
                 const SizedBox(width: 20),
-                const Text("Charu, Lucknow \n Every nook and corner of Chowk offers a variety of concotion of dishes like kebabs, paratha-chai or Fried Burgers", style: TextStyle(color: Colors.purple, fontSize: 20)),
+                const Text("Dhanusana, Shavasana, Mandukasana \n Include fruits, veggies, chicken, fish, milk, yogurt.", style: TextStyle(color: Colors.purple, fontSize: 20)),
             ],
-            ),  ],
+          ),  ],
         ),
       ),
     );
